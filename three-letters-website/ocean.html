@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Letter 1: The Deep Ocean 🌊🐋</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="theme-ocean">
+
+    <div id="particle-container" class="particle-container"></div>
+
+    <header class="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="nav-logo">← Back to Hub</a>
+            <div class="depth-meter"><span class="depth-dot"></span><span id="depth-text">Depth: 0m • Surface</span></div>
+            <button id="sound-btn" class="sound-toggle" title="Toggle Soundscape">🌊</button>
+        </div>
+    </header>
+
+    <main class="container" style="padding-top: 7rem;">
+        <section id="surface" class="section text-center">
+            <h1 class="section-title" style="font-size: 3rem;">Deeply in Love with You</h1>
+            <p class="section-desc">A voyage dedicated to your love for sharks and whales.</p>
+        </section>
+
+        <section id="sanctuary" class="section">
+            <div class="cards-grid">
+                <div class="glass-card">
+                    <h3 style="color: var(--accent-cyan);">The Whale Shark</h3>
+                    <p><em>"Gentle, quiet power navigating endless oceans."</em><br>You carry that exact same peaceful, majestic grace wherever you go.</p>
+                </div>
+                <div class="glass-card">
+                    <h3 style="color: var(--accent-cyan);">The Humpback Whale</h3>
+                    <p><em>"Songs that travel across entire ocean basins."</em><br>Thoughts of you linger in my mind no matter where I am or what I'm doing.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="section">
+            <div class="generator-box">
+                <div class="gen-icon">🐚</div>
+                <h2>Dive for a Love Note</h2>
+                <div id="note-display" class="note-display"><span>Click below to surface a message...</span></div>
+                <button onclick="generateNote('ocean')" class="btn btn-primary">Surface a Note</button>
+            </div>
+        </section>
+
+        <section id="deep-letter" class="section text-center">
+            <div class="letter-card-full glass-card">
+                <p class="letter-body">Scientists say humans have explored less than 5% of the ocean floor. But if there is one thing I know with absolute 100% certainty, it is how deeply you mean to me.</p>
+                <p class="letter-body">Thank you for sharing your love for the ocean with me. I hope every time you visit this page, it brings a warm smile to your face.</p>
+                <div class="signature-name">Always yours, <br>[Your Name]</div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <a href="index.html" class="back-hub">← Return to Letters Hub</a>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
